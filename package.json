@@ -1,0 +1,39 @@
+{
+  "name": "eslint-plugin-ember-object-update",
+  "version": "0.0.0",
+  "description": "An ESLint plugin to identify the pattern of updating the record after removal which trigger failures in tests",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssutar/eslint-plugin-ember-object-update.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "ssutar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ssutar/eslint-plugin-ember-object-update/issues"
+  },
+  "homepage": "https://github.com/ssutar/eslint-plugin-ember-object-update#readme",
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "~3.9.1",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "mocha": "^3.1.2",
+    "mocha-eslint": "^4.1.0",
+    "prettier": "^1.14.2"
+  }
+}
